@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c3e50"
+    android:layout_gravity="center"
+    tools:context=".about">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text=" Xml: Shakil Khandaker "
+            android:background="#333333"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text=" Java: Rabius Sani Jabiullah Prottoy "
+            android:background="#333333"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" You can calculate basic functions on this."
+            android:background="#333333"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Last update: 14 December 2019"
+            android:background="#333333"
+            android:layout_marginBottom="50dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btn99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Back to Calculator"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
